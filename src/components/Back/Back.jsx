@@ -1,7 +1,6 @@
 "use client";
-
-import styles from "./Back.module.css";
 import Link from "next/link";
+import styles from "./Back.module.css";
 import { HiOutlineArrowLeft } from "react-icons/hi";
 
 function Back({ to, text, pageName = "LAST PAGE" }) {

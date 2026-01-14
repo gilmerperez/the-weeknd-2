@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./Cookies.module.css";
@@ -17,12 +16,12 @@ function Cookies({ isOpen, onClose }) {
         {/* UMG logo */}
         <div className={styles.logoContainer}>
           <Image
-            src="/images/umg/umg-logo.png"
-            alt="Universal Music Group Logo"
+            priority
             width={200}
             height={200}
             className={styles.logo}
-            priority
+            src="/images/umg/umg-logo.png"
+            alt="Universal Music Group Logo"
           />
         </div>
 

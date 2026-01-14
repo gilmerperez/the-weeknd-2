@@ -1,12 +1,11 @@
 "use client";
-
+import Link from "next/link";
 import Search from "../Search/Search";
 import styles from "./Header.module.css";
 import { createPortal } from "react-dom";
 import { useState, useEffect } from "react";
-import Newsletter from "../Newsletter/Newsletter";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
+import Newsletter from "../Newsletter/Newsletter";
 import {
   HiOutlineMenu,
   HiOutlineSearch,
@@ -67,7 +66,7 @@ function Header() {
 
   return (
     <>
-      <header>
+      <header className={styles.header}>
         <div className={styles.headerContainer}>
           {/* Navigation */}
           <nav className={styles.navLeft}>

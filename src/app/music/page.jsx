@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export const metadata = {
   title: "Music",
-  description: "Discover The Weeknd&apos;s music, albums, and latest releases.",
+  description: "Discover The Weeknd's music, albums, and latest releases.",
   keywords: ["The Weeknd", "music", "albums", "songs", "releases", "streaming"],
 };
 

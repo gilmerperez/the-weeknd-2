@@ -1,8 +1,6 @@
 "use client";
-
-import Link from "next/link";
-import styles from "./page.module.css";
 import { useState } from "react";
+import styles from "./page.module.css";
 import Back from "../../../components/Back/Back";
 
 export default function Reset() {

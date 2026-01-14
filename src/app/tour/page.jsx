@@ -5,7 +5,7 @@ import Concert from "./components/Concert/Concert";
 
 export const metadata = {
   title: "Tour",
-  description: "Upcoming tour dates and ticket information for The Weeknd&apos;s After Hours Til Dawn tour.",
+  description: "Upcoming tour dates and ticket information for The Weeknd's After Hours Til Dawn tour.",
   keywords: ["The Weeknd", "tour", "concerts", "tickets", "live shows", "After Hours Til Dawn", "tour dates", "2026"],
 };
 
@@ -35,22 +35,22 @@ export default function Tour() {
               {/* Tour banner */}
               <div className={styles.bannerContainer}>
                 <Image
-                  src={latinAmericaTour.bannerImageWide}
-                  className={`${styles.bannerImage} ${styles.bannerImageWide}`}
-                  alt={`${latinAmericaTour.title} ${latinAmericaTour.region} ${latinAmericaTour.year}`}
+                  priority
                   width={1200}
                   height={600}
                   sizes="100vw"
-                  priority
+                  src={latinAmericaTour.bannerImageWide}
+                  className={`${styles.bannerImage} ${styles.bannerImageWide}`}
+                  alt={`${latinAmericaTour.title} ${latinAmericaTour.region} ${latinAmericaTour.year}`}
                 />
                 <Image
-                  src={latinAmericaTour.bannerImageTall}
-                  className={`${styles.bannerImage} ${styles.bannerImageTall}`}
-                  alt={`${latinAmericaTour.title} ${latinAmericaTour.region} ${latinAmericaTour.year}`}
+                  priority
                   width={600}
                   height={800}
                   sizes="100vw"
-                  priority
+                  src={latinAmericaTour.bannerImageTall}
+                  className={`${styles.bannerImage} ${styles.bannerImageTall}`}
+                  alt={`${latinAmericaTour.title} ${latinAmericaTour.region} ${latinAmericaTour.year}`}
                 />
               </div>
               {/* Concerts list */}
@@ -75,22 +75,22 @@ export default function Tour() {
               {/* Tour banner */}
               <div className={styles.bannerContainer}>
                 <Image
-                  src={europeTour.bannerImageWide}
-                  className={`${styles.bannerImage} ${styles.bannerImageWide}`}
-                  alt={`${europeTour.title} ${europeTour.region} ${europeTour.year}`}
+                  priority
                   width={1200}
                   height={600}
                   sizes="100vw"
-                  priority
+                  src={europeTour.bannerImageWide}
+                  className={`${styles.bannerImage} ${styles.bannerImageWide}`}
+                  alt={`${europeTour.title} ${europeTour.region} ${europeTour.year}`}
                 />
                 <Image
-                  src={europeTour.bannerImageTall}
-                  className={`${styles.bannerImage} ${styles.bannerImageTall}`}
-                  alt={`${europeTour.title} ${europeTour.region} ${europeTour.year}`}
+                  priority
                   width={600}
                   height={800}
                   sizes="100vw"
-                  priority
+                  src={europeTour.bannerImageTall}
+                  className={`${styles.bannerImage} ${styles.bannerImageTall}`}
+                  alt={`${europeTour.title} ${europeTour.region} ${europeTour.year}`}
                 />
               </div>
               {/* Concerts list */}

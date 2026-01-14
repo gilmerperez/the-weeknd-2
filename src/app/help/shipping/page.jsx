@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./page.module.css";
 import Back from "../../../components/Back/Back";
 
@@ -28,8 +27,9 @@ export default function Shipping() {
             <p className={styles.answer}>
               Some carriers will mark a package as delivered before they actually deliver it. Though unusual, this can
               happen up to 5 days before an item is actually delivered. You can try contacting the carrier to get better
-              insight into the delay. If you still haven&apos;t received your package after 5 days, and you&apos;ve checked with
-              your neighbors and still don&apos;t have it, please reach out to us here and we&apos;ll do our best to help!
+              insight into the delay. If you still haven&apos;t received your package after 5 days, and you&apos;ve
+              checked with your neighbors and still don&apos;t have it, please reach out to us here and we&apos;ll do
+              our best to help!
             </p>
           </div>
 
@@ -41,8 +41,8 @@ export default function Shipping() {
             </p>
             {/* Answer */}
             <p className={styles.answer}>
-              If your shipment tracking link for your order has not been updated beyond the &quot;pre-shipment&quot; or &quot;label
-              created&quot; stage in 2 weeks, please contact us so we can look into it for you.
+              If your shipment tracking link for your order has not been updated beyond the &quot;pre-shipment&quot; or
+              &quot;label created&quot; stage in 2 weeks, please contact us so we can look into it for you.
             </p>
             <p className={styles.answer}>
               You have up to 30 days from the date of shipment to claim your package as lost in order to receive a
@@ -72,7 +72,9 @@ export default function Shipping() {
 
           <div className={styles.questionsContainer}>
             {/* Question */}
-            <p className={styles.question}>My tracking link says &quot;Label Created&quot; but hasn&apos;t updated. What do I do?</p>
+            <p className={styles.question}>
+              My tracking link says &quot;Label Created&quot; but hasn&apos;t updated. What do I do?
+            </p>
             {/* Answer */}
             <p className={styles.answer}>
               We typically refer to this stage as &quot;pre-shipment&quot;. This could mean a couple of things:
@@ -127,15 +129,16 @@ export default function Shipping() {
             </p>
             <p className={styles.answer}>
               Once an order leaves our warehouse, carrier shipping delays may occur due to factors outside our control.
-              We, unfortunately, can&apos;t control how quickly an order arrives once it has left our warehouse. Contacting
-              the carrier is the best way to get more insight into your package&apos;s location and estimated delivery date.
+              We, unfortunately, can&apos;t control how quickly an order arrives once it has left our warehouse.
+              Contacting the carrier is the best way to get more insight into your package&apos;s location and estimated
+              delivery date.
             </p>
             <p className={styles.answer}>
               Please note that shipping delays will occur if you provide an incorrect address at checkout.
             </p>
             <p className={styles.answer}>
-              If your package is returned to our facility due to a shipping or delivery issue, we&apos;ll reach out to you
-              via the email address provided with your shipping information.
+              If your package is returned to our facility due to a shipping or delivery issue, we&apos;ll reach out to
+              you via the email address provided with your shipping information.
             </p>
             <p className={styles.answer}>
               If we don&apos;t receive a response within 5 business days, we reserve the right to cancel and refund your
@@ -202,15 +205,17 @@ export default function Shipping() {
 
           <div className={styles.questionsContainer}>
             {/* Question */}
-            <p className={styles.question}>My item was shipped, but still hasn&apos;t shown up. Is it lost in the mail?</p>
+            <p className={styles.question}>
+              My item was shipped, but still hasn&apos;t shown up. Is it lost in the mail?
+            </p>
             {/* Answer */}
             <p className={styles.answer}>
               You have up to 30 days from the date of shipment to claim your package as lost in order to receive a
               reshipment if stock permits or a refund for your missing item(s).
             </p>
             <p className={styles.answer}>
-              If you receive tracking on an order but it has not been updated beyond the &quot;pre-shipment&quot; or &quot;label
-              created&quot; stage within 2 weeks, please reach out to us here to look into it for you.
+              If you receive tracking on an order but it has not been updated beyond the &quot;pre-shipment&quot; or
+              &quot;label created&quot; stage within 2 weeks, please reach out to us here to look into it for you.
             </p>
             <p className={styles.answer}>
               Please note that we are not responsible for packages lost due to an incorrect shipping address being
@@ -224,9 +229,9 @@ export default function Shipping() {
             <p className={styles.question}>When will I get tracking information?</p>
             {/* Answer */}
             <p className={styles.answer}>
-              You&apos;ll receive tracking info as soon as your package is processed for shipment, via the email you placed
-              your order with. Make sure to check all inboxes, including your spam folder, if you can&apos;t find your
-              shipping confirmation.
+              You&apos;ll receive tracking info as soon as your package is processed for shipment, via the email you
+              placed your order with. Make sure to check all inboxes, including your spam folder, if you can&apos;t find
+              your shipping confirmation.
             </p>
             <p className={styles.answer}>
               Please note it can sometimes take up to 3 days for your tracking link to update.
@@ -235,7 +240,9 @@ export default function Shipping() {
 
           <div className={styles.questionsContainer}>
             {/* Question */}
-            <p className={styles.question}>My tracking link says &quot;Label Created&quot; but hasn&apos;t updated. What do I do?</p>
+            <p className={styles.question}>
+              My tracking link says &quot;Label Created&quot; but hasn&apos;t updated. What do I do?
+            </p>
             {/* Answer */}
             <p className={styles.answer}>
               We typically refer to this stage as &quot;pre-shipment&quot;. This could mean a couple of things:
@@ -271,8 +278,8 @@ export default function Shipping() {
               insight into the delay.
             </p>
             <p className={styles.answer}>
-              If you still haven&apos;t received your package after 5 days and you&apos;ve checked with your neighbors in an
-              attempt to locate it, please reach out to us and we&apos;ll do our best to help!
+              If you still haven&apos;t received your package after 5 days and you&apos;ve checked with your neighbors
+              in an attempt to locate it, please reach out to us and we&apos;ll do our best to help!
             </p>
           </div>
         </div>

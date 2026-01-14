@@ -1,8 +1,7 @@
 "use client";
-
 import Link from "next/link";
-import styles from "./page.module.css";
 import { useState } from "react";
+import styles from "./page.module.css";
 import { HiExclamationCircle, HiOutlineInformationCircle, HiX, HiCheck } from "react-icons/hi";
 
 export default function Account() {
@@ -89,8 +88,8 @@ export default function Account() {
                 <HiOutlineInformationCircle className={styles.infoIcon} />
                 {/* Tooltip */}
                 <div className={styles.tooltip}>
-                  By creating an account, you&apos;ll be able to move through the checkout process faster, store multiple
-                  shipping addresses, view and track your orders and more.
+                  By creating an account, you&apos;ll be able to move through the checkout process faster, store
+                  multiple shipping addresses, view and track your orders and more.
                 </div>
               </div>
             </div>

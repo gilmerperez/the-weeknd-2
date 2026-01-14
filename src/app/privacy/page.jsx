@@ -2,7 +2,8 @@ import styles from "./page.module.css";
 
 export const metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy for The Weeknd official website. Learn how we collect, use, and protect your personal information.",
+  description:
+    "Privacy policy for The Weeknd official website. Learn how we collect, use, and protect your personal information.",
   keywords: ["The Weeknd", "privacy", "policy", "data protection", "personal information"],
 };
 
@@ -45,31 +46,31 @@ export default function Privacy() {
 
           {/* Privacy policy */}
           <p className={styles.paragraph}>
-            Universal Music Group is the world leader in music-based entertainment. We are the home for music&apos;s greatest
-            artists, innovators, and entrepreneurs. As digital technology refashions the world, our unmatched commitment
-            to lead by developing new services, platforms, and business models for the delivery of music and related
-            content empowers innovators and allows new commercial and artistic opportunities to flourish.
+            Universal Music Group is the world leader in music-based entertainment. We are the home for music&apos;s
+            greatest artists, innovators, and entrepreneurs. As digital technology refashions the world, our unmatched
+            commitment to lead by developing new services, platforms, and business models for the delivery of music and
+            related content empowers innovators and allows new commercial and artistic opportunities to flourish.
           </p>
 
           <p className={styles.paragraph}>
             As part of this mission, Universal Music Group operates websites, applications, stores, and other services
-            (which we refer to in this privacy policy as &quot;Apps&quot;) to help our artists stay connected with fans in new and
-            exciting ways.
+            (which we refer to in this privacy policy as &quot;Apps&quot;) to help our artists stay connected with fans
+            in new and exciting ways.
           </p>
 
           <p className={styles.paragraph}>
-            This privacy policy describes Universal Music Group&apos;s data practices, including the collection, use, and
-            sharing of data through Apps that link to this privacy policy, along with the choices and rights you have to
-            control those data practices.
+            This privacy policy describes Universal Music Group&apos;s data practices, including the collection, use,
+            and sharing of data through Apps that link to this privacy policy, along with the choices and rights you
+            have to control those data practices.
           </p>
 
           <p className={styles.paragraph}>Who we are</p>
 
           <p className={styles.paragraph}>
             Apps that link to this privacy policy are operated by Universal Music Investments, Inc., located at 2220
-            Colorado Ave, Santa Monica, CA 90404. As used in this policy, &quot;UMG,&quot; &quot;we,&quot; and &quot;our&quot; refers to this entity,
-            who acts as a data controller and is responsible for the processing of personal data by the Apps under
-            applicable privacy and data protection laws.
+            Colorado Ave, Santa Monica, CA 90404. As used in this policy, &quot;UMG,&quot; &quot;we,&quot; and
+            &quot;our&quot; refers to this entity, who acts as a data controller and is responsible for the processing
+            of personal data by the Apps under applicable privacy and data protection laws.
           </p>
 
           <p className={styles.paragraph}>
@@ -99,8 +100,8 @@ export default function Privacy() {
           </p>
 
           <p className={styles.paragraph}>
-            You may also contact UMG&apos;s Data Protection Officer, by writing to Universal Music Group (ATTN: &quot;Data
-            Protection Officer&quot;), 2220 Colorado Ave, Santa Monica, CA 90404 USA.
+            You may also contact UMG&apos;s Data Protection Officer, by writing to Universal Music Group (ATTN:
+            &quot;Data Protection Officer&quot;), 2220 Colorado Ave, Santa Monica, CA 90404 USA.
           </p>
 
           <p className={styles.paragraph}>Information we collect</p>
@@ -328,10 +329,10 @@ export default function Privacy() {
           <p className={styles.paragraph}>
             You may have certain rights regarding our processing of personal data about you. These rights may include
             access to, rectification, erasure, and/or portability of your personal data. You can exercise these rights
-            by contacting us as described in the &quot;Contact&quot; section. We may take steps to verify your identity before
-            completing your request. Our verification measures vary based on the risk to the individual and may involve
-            confirming access to the relevant email account, providing a government-issued ID or other identification
-            documents, or providing other account details or information that indicates a valid request.
+            by contacting us as described in the &quot;Contact&quot; section. We may take steps to verify your identity
+            before completing your request. Our verification measures vary based on the risk to the individual and may
+            involve confirming access to the relevant email account, providing a government-issued ID or other
+            identification documents, or providing other account details or information that indicates a valid request.
           </p>
 
           <p className={styles.paragraph}>
@@ -341,8 +342,8 @@ export default function Privacy() {
 
           <p className={styles.paragraph}>
             Specific information regarding rights related to data processing of European data and personal data about
-            residents of California, Colorado, Virginia, Connecticut, and Utah can be found on our &quot;Your Privacy Rights&quot;
-            page.
+            residents of California, Colorado, Virginia, Connecticut, and Utah can be found on our &quot;Your Privacy
+            Rights&quot; page.
           </p>
 
           <p className={styles.paragraph}>International data transfers from the EU, UK, or Switzerland</p>
@@ -352,11 +353,11 @@ export default function Privacy() {
             Investments, Inc., Universal Music Group Holdings, Inc., Universal Music Group, Inc., UMG Commercial
             Services, Inc., and Universal Music Publishing, Inc. participate in the EU-US Data Privacy Framework, the
             Swiss-US Data Privacy Framework, and the UK Extension to the EU-US Data Privacy Framework (collectively the
-            &quot;DPF&quot;) regarding the collection, use, and retention of personal information transferred to the United States
-            from member countries of the European Economic Area, Switzerland, and the United Kingdom. UMG has certified
-            to the United Stated Department of Commerce that we adhere to the Data Privacy Framework Principles. More
-            information about the Data Privacy Framework, including UMG&apos;s certification, is available on the Data
-            Privacy Framework (DPF) Program website.
+            &quot;DPF&quot;) regarding the collection, use, and retention of personal information transferred to the
+            United States from member countries of the European Economic Area, Switzerland, and the United Kingdom. UMG
+            has certified to the United Stated Department of Commerce that we adhere to the Data Privacy Framework
+            Principles. More information about the Data Privacy Framework, including UMG&apos;s certification, is
+            available on the Data Privacy Framework (DPF) Program website.
           </p>
 
           <p className={styles.paragraph}>
@@ -365,11 +366,11 @@ export default function Privacy() {
           </p>
 
           <p className={styles.paragraph}>
-            UMG collects and uses personal information as described in the &quot;Information we collect&quot; and &quot;How your
-            information may be used&quot; sections above. We may disclose personal information about you as described in the
-            &quot;How your information may be shared&quot; section above. UMG may be required to disclose personal information in
-            response to lawful requests by public authorities, including to meet national security or law enforcement
-            requirements.
+            UMG collects and uses personal information as described in the &quot;Information we collect&quot; and
+            &quot;How your information may be used&quot; sections above. We may disclose personal information about you
+            as described in the &quot;How your information may be shared&quot; section above. UMG may be required to
+            disclose personal information in response to lawful requests by public authorities, including to meet
+            national security or law enforcement requirements.
           </p>
 
           <p className={styles.paragraph}>
@@ -384,8 +385,8 @@ export default function Privacy() {
           <p className={styles.paragraph}>
             Individuals whose data is subject to the DPF have the right to access personal information about them. You
             may also have choices to limit the use, and disclosure of personal information about you. Please see our
-            &quot;Your Privacy Rights&quot; page for additional information regarding your rights and how to make privacy
-            requests.
+            &quot;Your Privacy Rights&quot; page for additional information regarding your rights and how to make
+            privacy requests.
           </p>
 
           <p className={styles.paragraph}>Dispute resolution</p>

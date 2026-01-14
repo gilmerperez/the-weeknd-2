@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import styles from "./Footer.module.css";
 import { useState, useEffect } from "react";
@@ -18,14 +17,8 @@ function Footer({ onCookieChoicesClick }) {
     return prefersDark ? "dark" : "light";
   };
 
-  const [theme, setTheme] = useState("dark");
-
-  // Initialize theme on mount
-  useEffect(() => {
-    const initialTheme = getInitialTheme();
-    setTheme(initialTheme);
-    document.documentElement.setAttribute("data-theme", initialTheme);
-  }, []);
+  // Initialize theme with lazy initialization to avoid setState in effect
+  const [theme, setTheme] = useState(() => getInitialTheme());
 
   // Save theme to localStorage and update DOM
   useEffect(() => {
@@ -55,7 +48,7 @@ function Footer({ onCookieChoicesClick }) {
 
   return (
     <>
-      <footer>
+      <footer className={styles.footer}>
         <div className={styles.footerContainer}>
           {/* Social media icons */}
           <section className={styles.socialIcons}>

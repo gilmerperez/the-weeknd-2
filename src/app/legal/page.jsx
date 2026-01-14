@@ -2,7 +2,8 @@ import styles from "./page.module.css";
 
 export const metadata = {
   title: "Do Not Sell My Information",
-  description: "Learn about your privacy rights and how to opt out of the sale of your personal information on The Weeknd official website.",
+  description:
+    "Learn about your privacy rights and how to opt out of the sale of your personal information on The Weeknd official website.",
   keywords: ["The Weeknd", "privacy rights", "do not sell", "personal information", "data protection"],
 };
 
@@ -45,8 +46,8 @@ export default function Legal() {
 
           {/* Legal notice */}
           <p className={styles.paragraph}>
-            Here at Universal Music Group, we take your privacy seriously and we&apos;re dedicated to providing you with the
-            best possible music experience. To do that, we collect and use information about you to personalize our
+            Here at Universal Music Group, we take your privacy seriously and we&apos;re dedicated to providing you with
+            the best possible music experience. To do that, we collect and use information about you to personalize our
             sites, stores, and marketing communications. However, only you know what your best experience is, so we
             provide fans with choices about how we collect, use and share your data.
           </p>
@@ -104,21 +105,22 @@ export default function Legal() {
           </p>
 
           <p className={styles.paragraph}>
-            Do-Not-Track Signals and Similar Mechanisms. Some web browsers may transmit &quot;do-not-track&quot; signals to the
-            websites and other online services with which a user communicates. While there is no comprehensive industry
-            standard for such signals, certain websites UMG operates attempt to recognize this signal and, if detected,
-            limit our use of cookies and similar tracking technologies. Unfortunately, due to the variation in browsers
-            and detection capabilities and the lack of accepted standards we cannot guarantee that transmitting a
-            &quot;do-not-track&quot; signal will result in our disabling cookies and tracking technologies. We recommend using the
-            cookie choices tools on our sites to control UMG&apos;s use of cookies and tracking technologies.
+            Do-Not-Track Signals and Similar Mechanisms. Some web browsers may transmit &quot;do-not-track&quot; signals
+            to the websites and other online services with which a user communicates. While there is no comprehensive
+            industry standard for such signals, certain websites UMG operates attempt to recognize this signal and, if
+            detected, limit our use of cookies and similar tracking technologies. Unfortunately, due to the variation in
+            browsers and detection capabilities and the lack of accepted standards we cannot guarantee that transmitting
+            a &quot;do-not-track&quot; signal will result in our disabling cookies and tracking technologies. We
+            recommend using the cookie choices tools on our sites to control UMG&apos;s use of cookies and tracking
+            technologies.
           </p>
 
           <p className={styles.paragraph}>Personal Data We Collect and Disclose</p>
 
           <p className={styles.paragraph}>
             In the preceding 12 months, UMG collected and disclosed the following categories of personal data. UMG
-            shares personal data for targeted advertising but does not otherwise engage in &quot;sales&quot; of personal data as
-            defined by state laws.
+            shares personal data for targeted advertising but does not otherwise engage in &quot;sales&quot; of personal
+            data as defined by state laws.
           </p>
 
           {/* Personal data disclosure table */}
@@ -140,8 +142,8 @@ export default function Legal() {
                 <tr>
                   <td className={styles.tableCell}>
                     Identifiers such as real name, alias, postal address, unique personal identifier, online identifier,
-                    IP address, email address, account name, social security number, driver&apos;s license number, passport
-                    number, or other similar identifiers
+                    IP address, email address, account name, social security number, driver&apos;s license number,
+                    passport number, or other similar identifiers
                   </td>
                   <td className={styles.tableCell}>
                     UMG affiliates, business partners, our service providers, and advertising companies
@@ -173,8 +175,8 @@ export default function Legal() {
                 <tr>
                   <td className={styles.tableCell}>
                     Internet or other electronic network activity information, including browsing history, search
-                    history, and information regarding a consumer&apos;s interaction with an internet website, application,
-                    or advertisement
+                    history, and information regarding a consumer&apos;s interaction with an internet website,
+                    application, or advertisement
                   </td>
                   <td className={styles.tableCell}>UMG affiliates, business partners, and service providers</td>
                   <td className={styles.tableCell}>Advertising companies</td>
@@ -238,8 +240,8 @@ export default function Legal() {
           <p className={styles.paragraph}>Business or Commercial Purposes for Processing Personal Data:</p>
 
           <p className={styles.paragraph}>
-            We use and disclose the personal data as described above in the &quot;How Your Information May Be Used&quot; section
-            of our privacy policy.
+            We use and disclose the personal data as described above in the &quot;How Your Information May Be Used&quot;
+            section of our privacy policy.
           </p>
 
           <p className={styles.paragraph}>Your Rights:</p>
@@ -270,8 +272,8 @@ export default function Legal() {
           </p>
 
           <p className={styles.paragraph}>
-            Depending on your state, the right to limit our processing of certain &quot;sensitive&quot; personal data, including
-            the withdrawal of prior consent and/or
+            Depending on your state, the right to limit our processing of certain &quot;sensitive&quot; personal data,
+            including the withdrawal of prior consent and/or
           </p>
 
           <p className={styles.paragraph}>

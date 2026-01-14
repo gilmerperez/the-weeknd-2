@@ -9,28 +9,28 @@ export const metadata = {
 
 // * Function to get current date
 function getLastUpdated() {
-    const now = new Date();
-    // Months array
-    const months = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
-    ];
-    // Get current month, day, and year
-    const month = months[now.getMonth()];
-    const day = now.getDate();
-    const year = now.getFullYear();
-    // Return formatted date
-    return `Last updated on ${month} ${day}, ${year}`;
+  const now = new Date();
+  // Months array
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  // Get current month, day, and year
+  const month = months[now.getMonth()];
+  const day = now.getDate();
+  const year = now.getFullYear();
+  // Return formatted date
+  return `Last updated on ${month} ${day}, ${year}`;
 }
 
 export default function Terms() {
@@ -48,13 +48,14 @@ export default function Terms() {
           <p className={styles.paragraph}>I. General</p>
 
           <p className={styles.paragraph}>
-            1. These terms and conditions (the &quot;Terms&quot;) govern your relationship (hereafter, &quot;You&quot; or &quot;Your,&quot;
-            individually) with UMG Commercial Services, Inc. (&quot;UMG&quot;) when You use UMG&apos;s online services (the &quot;Services&quot;)
-            via this webstore (this &quot;Webstore&quot;). Wherever You see &quot;UMG&quot; on the website or in any of the Terms, this
-            means UMG and any of its affiliates, subsidiaries or any parent company (including the ultimate parent
-            company) of UMG and any subsidiary of any such parent company for the time being. From time to time, UMG may
-            use the services of third parties to assist UMG in the provision of this Webstore, however, unless otherwise
-            stated, the Services available on this Webstore are provided to You by UMG.
+            1. These terms and conditions (the &quot;Terms&quot;) govern your relationship (hereafter, &quot;You&quot;
+            or &quot;Your,&quot; individually) with UMG Commercial Services, Inc. (&quot;UMG&quot;) when You use
+            UMG&apos;s online services (the &quot;Services&quot;) via this webstore (this &quot;Webstore&quot;).
+            Wherever You see &quot;UMG&quot; on the website or in any of the Terms, this means UMG and any of its
+            affiliates, subsidiaries or any parent company (including the ultimate parent company) of UMG and any
+            subsidiary of any such parent company for the time being. From time to time, UMG may use the services of
+            third parties to assist UMG in the provision of this Webstore, however, unless otherwise stated, the
+            Services available on this Webstore are provided to You by UMG.
           </p>
 
           <p className={styles.paragraph}>
@@ -116,9 +117,9 @@ export default function Terms() {
 
           <p className={styles.paragraph}>
             1. The Services, this Webstore, including, without limitation, all trademarks, music recordings, lyrics,
-            audio and audio-visual clips, digital downloads (&quot;Content&quot;) are owned and controlled by or licensed to UMG,
-            its affiliates and/or licensees. All rights in the Content are the sole and exclusive property of UMG or
-            such affiliates, licensors and/or licensees.
+            audio and audio-visual clips, digital downloads (&quot;Content&quot;) are owned and controlled by or
+            licensed to UMG, its affiliates and/or licensees. All rights in the Content are the sole and exclusive
+            property of UMG or such affiliates, licensors and/or licensees.
           </p>
 
           <p className={styles.paragraph}>
@@ -148,7 +149,7 @@ export default function Terms() {
           <p className={styles.paragraph}>
             iii. upload, post or transmit to, or distribute or otherwise publish through this Webstore any materials
             that contain a virus or other harmful component, or false or misleading indications of origin or statements
-            of fact, or any material that is indecent, defamatory or use of which may be in breach of any third party's
+            of fact, or any material that is indecent, defamatory or use of which may be in breach of any third party&apos;s
             rights;
           </p>
 
@@ -161,10 +162,10 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            vi. engage in spamming, flooding, harvesting of e-mail addresses or other personal information, &quot;spidering,&quot;
-            &quot;screen scraping,&quot; &quot;database scraping,&quot; or any other activity with the purpose of obtaining lists of users
-            or other information (including any activity which involves accessing or using UMG cookies for purposes
-            which are unrelated to the Services);
+            vi. engage in spamming, flooding, harvesting of e-mail addresses or other personal information,
+            &quot;spidering,&quot; &quot;screen scraping,&quot; &quot;database scraping,&quot; or any other activity
+            with the purpose of obtaining lists of users or other information (including any activity which involves
+            accessing or using UMG cookies for purposes which are unrelated to the Services);
           </p>
 
           <p className={styles.paragraph}>
@@ -181,11 +182,11 @@ export default function Terms() {
           <p className={styles.paragraph}>V. UMG&apos;s Software</p>
 
           <p className={styles.paragraph}>
-            1. Software used to provide the Services (&quot;Software&quot;) is owned by or licensed to UMG, UMG&apos;s affiliates or
-            UMG&apos;s software suppliers. All rights in the Software are the sole and exclusive property of UMG or UMG&apos;s
-            suppliers. You may use the Software only for the purpose of using the Services in accordance with these
-            Terms and You acquire no other rights in the Software of any sort. In particular, but without limiting the
-            foregoing, You may not:
+            1. Software used to provide the Services (&quot;Software&quot;) is owned by or licensed to UMG, UMG&apos;s
+            affiliates or UMG&apos;s software suppliers. All rights in the Software are the sole and exclusive property
+            of UMG or UMG&apos;s suppliers. You may use the Software only for the purpose of using the Services in
+            accordance with these Terms and You acquire no other rights in the Software of any sort. In particular, but
+            without limiting the foregoing, You may not:
           </p>
 
           <p className={styles.paragraph}>
@@ -216,8 +217,8 @@ export default function Terms() {
             to complete a registration process by providing certain information (including Your name, email address and,
             in some cases, payment details) and registering a username and password for use in connection with that
             Service. You agree that You will provide truthful and accurate information when registering or opening an
-            account. The decision to register a password is in UMG&apos;s discretion and UMG may revoke Your password at any
-            time.
+            account. The decision to register a password is in UMG&apos;s discretion and UMG may revoke Your password at
+            any time.
           </p>
 
           <p className={styles.paragraph}>
@@ -234,7 +235,7 @@ export default function Terms() {
 
           <p className={styles.paragraph}>
             4. UMG will not be liable for any loss or damage whatsoever resulting from the disclosure of your username
-            and/or password contrary to these Terms. You may not use another person's account at any time without the
+            and/or password contrary to these Terms. You may not use another person&apos;s account at any time without the
             express permission of the account holder.
           </p>
 
@@ -249,10 +250,10 @@ export default function Terms() {
 
           <p className={styles.paragraph}>
             6. You should ensure that your computer meets the minimum technical requirements for the Services, namely an
-            internet, &quot;JavaScripted,&quot; and a cookies-enabled browser. You may be required to install third-party software
-            to access some or all of the Services. You are responsible for ensuring that the software functions
-            correctly with the relevant Service. Terms and conditions provided by the software supplier may apply to
-            UMG&apos;s the third-party software.
+            internet, &quot;JavaScripted,&quot; and a cookies-enabled browser. You may be required to install
+            third-party software to access some or all of the Services. You are responsible for ensuring that the
+            software functions correctly with the relevant Service. Terms and conditions provided by the software
+            supplier may apply to UMG&apos;s the third-party software.
           </p>
 
           <p className={styles.paragraph}>
@@ -291,12 +292,12 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            2. Shipping and delivery dates for any and all so-called "limited edition" and/or &quot;pre-order&quot; sales of
-            product(s) are not guaranteed unless otherwise specified.
+            2. Shipping and delivery dates for any and all so-called &quot;limited edition&quot; and/or &quot;pre-order&quot;
+            sales of product(s) are not guaranteed unless otherwise specified.
           </p>
 
           <p className={styles.paragraph}>
-            3. Returns and/or exchanges will never be accepted for so-called "limited edition" product(s).
+            3. Returns and/or exchanges will never be accepted for so-called &quot;limited edition&quot; product(s).
           </p>
 
           <p className={styles.paragraph}>
@@ -325,8 +326,8 @@ export default function Terms() {
 
           <p className={styles.paragraph}>
             4. Items which You select for purchase, download and/or streaming (as applicable) will automatically be
-            placed in Your &quot;shopping basket.&quot; To remove an item from Your shopping basket, simply click on the &quot;remove&quot;
-            (or similar) button next to the item as it appears in Your basket.
+            placed in Your &quot;shopping basket.&quot; To remove an item from Your shopping basket, simply click on the
+            &quot;remove&quot; (or similar) button next to the item as it appears in Your basket.
           </p>
 
           <p className={styles.paragraph}>
@@ -346,17 +347,18 @@ export default function Terms() {
             7. You will receive an order summary confirmation on screen and/or by email (as long as You have provided
             UMG with a valid email address) acknowledging that UMG has received Your order - this does not mean that
             Your order has been accepted. Your order represents an offer to UMG to purchase a particular item which is
-            accepted by UMG only when UMG sends You an email (&quot;Dispatch Confirmation&quot;) confirming (i) in the case of
-            physical products, that the particular product has been dispatched; or (ii) in the case of digital content,
-            instructions for accessing Your digital content.
+            accepted by UMG only when UMG sends You an email (&quot;Dispatch Confirmation&quot;) confirming (i) in the
+            case of physical products, that the particular product has been dispatched; or (ii) in the case of digital
+            content, instructions for accessing Your digital content.
           </p>
 
           <p className={styles.paragraph}>
             8. UMG may reject, modify or cancel Your order for any reason prior to shipping Your order. If UMG rejects
-            Your order after payment has already been taken, UMG will provide You with a refund in accordance with UMG&apos;s
-            Refund Policy set out in Section XIII (below). Where Your order was for products of a "hybrid" nature (e.g.,
-            a physical and digital product) UMG will refund the relevant element of the order in accordance with UMG&apos;s
-            Cancellation Policy (set out in Section XI as applicable, below) for that particular product.
+            Your order after payment has already been taken, UMG will provide You with a refund in accordance with
+            UMG&apos;s Refund Policy set out in Section XIII (below). Where Your order was for products of a &quot;hybrid&quot;
+            nature (e.g., a physical and digital product) UMG will refund the relevant element of the order in
+            accordance with UMG&apos;s Cancellation Policy (set out in Section XI as applicable, below) for that
+            particular product.
           </p>
 
           <p className={styles.paragraph}>
@@ -381,21 +383,21 @@ export default function Terms() {
           <p className={styles.paragraph}>
             12. If You have ordered multiple items within a single order, UMG reserves the right to either (i) ship Your
             order once all items become available to ship or (ii) to split Your order containing multiple items into
-            multiple shipments (&quot;Split Shipping&quot;) at UMG&apos;s discretion. For some orders, UMG may offer You the ability to
-            choose Split Shipping during checkout. Split Shipping options may read "Ship Items Separately - As They
-            Become Available" or similar. If You have selected Split Shipping, Your items will ship in separate packages
-            as they become available for shipment. Split Shipping is not available for every order and UMG reserves the
-            right to revoke Split Shipping options at any time.
+            multiple shipments (&quot;Split Shipping&quot;) at UMG&apos;s discretion. For some orders, UMG may offer You
+            the ability to choose Split Shipping during checkout. Split Shipping options may read &quot;Ship Items Separately
+            - As They Become Available&quot; or similar. If You have selected Split Shipping, Your items will ship in
+            separate packages as they become available for shipment. Split Shipping is not available for every order and
+            UMG reserves the right to revoke Split Shipping options at any time.
           </p>
 
           <p className={styles.paragraph}>
             13. UMG may offer expedited shipping options (e.g., Next Day, 2-Day, 3-Day). If You selected an expedited
             shipping option, Your items will ship together in a single shipment when all items become available to ship,
-            or solely at UMG&apos;s discretion, UMG may split Your order into separate shipments, as items become available.
-            Split Shipping is not available at Your option during checkout for expedited orders. UMG reserves the right
-            to revoke expedited shipping options at any time. PLEASE NOTE: expedited shipping timelines are the
-            carrier&apos;s timelines from the date the items are ready to ship from UMG&apos;s warehouse facilities. For
-            preorders, expedited shipping is based upon when the preorder period is over, and the items are ready to
+            or solely at UMG&apos;s discretion, UMG may split Your order into separate shipments, as items become
+            available. Split Shipping is not available at Your option during checkout for expedited orders. UMG reserves
+            the right to revoke expedited shipping options at any time. PLEASE NOTE: expedited shipping timelines are
+            the carrier&apos;s timelines from the date the items are ready to ship from UMG&apos;s warehouse facilities.
+            For preorders, expedited shipping is based upon when the preorder period is over, and the items are ready to
             ship. These timelines may vary. The timeline for a preorder will be available via the product page. You
             should read all product descriptions thoroughly for all applicable details and You should ensure You
             understand all preorder and shipping timelines prior to selecting Your shipping method.
@@ -434,7 +436,7 @@ export default function Terms() {
             other costs in addition to carrier fees), which may be added to the total amount and will be calculated and
             displayed on screen prior to You submitting Your payment details or finalizing your order. Typically, the
             purchase will appear on Your credit card or bank statement under the applicable artist or store name, or as
-            UMG, or under the name of an applicable technology vendor (such as "Shopify"). If You have any questions
+            UMG, or under the name of an applicable technology vendor (such as &quot;Shopify&quot;). If You have any questions
             about what to expect on Your credit card statement, please contact{" "}
             <a href="mailto:gilmer2002@outlook.com" className={styles.underline}>
               customercare@umgstores.com
@@ -443,14 +445,14 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            4. It is always possible that, despite UMG&apos;s best efforts, some of the items listed on this Webstore may be
-            incorrectly priced. UMG will usually verify prices as part of UMG&apos;s dispatch procedure so that, where a
-            product's correct price is less than UMG&apos;s stated price, UMG will charge the lower amount when dispatching
-            the product to You. If a product's correct price is higher than the price stated on this Webstore, UMG will
-            usually, at UMG&apos;s discretion, either contact You for instructions before dispatching the product, or reject
-            Your order and notify You of such rejection. UMG is under no obligation to provide the product to You at an
-            incorrect (e.g., lower) price, even after UMG has sent You a Dispatch Confirmation, if the pricing error is
-            obvious and/or could have reasonably been recognized by You.
+            4. It is always possible that, despite UMG&apos;s best efforts, some of the items listed on this Webstore
+            may be incorrectly priced. UMG will usually verify prices as part of UMG&apos;s dispatch procedure so that,
+            where a product&apos;s correct price is less than UMG&apos;s stated price, UMG will charge the lower amount when
+            dispatching the product to You. If a product&apos;s correct price is higher than the price stated on this
+            Webstore, UMG will usually, at UMG&apos;s discretion, either contact You for instructions before dispatching
+            the product, or reject Your order and notify You of such rejection. UMG is under no obligation to provide
+            the product to You at an incorrect (e.g., lower) price, even after UMG has sent You a Dispatch Confirmation,
+            if the pricing error is obvious and/or could have reasonably been recognized by You.
           </p>
 
           <p className={styles.paragraph}>
@@ -516,8 +518,8 @@ export default function Terms() {
               customercare@umgstores.com
             </a>{" "}
             that the digital content is indeed defective, UMG will first attempt to repair or replace the relevant
-            product at UMG&apos;s cost within a reasonable timeframe if it is reasonably possible to do so. If a repair or
-            replacement is not possible, UMG will refund You for either the full or partial cost of the product as
+            product at UMG&apos;s cost within a reasonable timeframe if it is reasonably possible to do so. If a repair
+            or replacement is not possible, UMG will refund You for either the full or partial cost of the product as
             appropriate. If UMG agrees to a refund, UMG will refund the sum agreed within fourteen (14) days of
             confirming to You that You are entitled to a refund.
           </p>
@@ -536,12 +538,12 @@ export default function Terms() {
             , prior to receiving a shipping confirmation. If Your item has already shipped, You may return the item for
             store credit within five (5) days of receiving the product for any reason, provided that You follow the
             specified instructions from UMG regarding returns. In this case, You will receive a full refund of the price
-            paid for the product(s) in accordance with UMG&apos;s Refund Policy set out in Section XIII below. For clarity,
-            where Your order was for products of a "hybrid" nature (e.g., a physical and digital product) and UMG has
-            begun the process of delivering Your digital product order, UMG will refund the relevant physical element of
-            the order in accordance with UMG&apos;s Cancellation Policy as set out in this Section XI(2). Where You order
-            multiple items that are delivered in separate batches, Your fourteen (14) day cancellation period does not
-            begin until the day after the last item has been received by You.
+            paid for the product(s) in accordance with UMG&apos;s Refund Policy set out in Section XIII below. For
+            clarity, where Your order was for products of a &quot;hybrid&quot; nature (e.g., a physical and digital product) and
+            UMG has begun the process of delivering Your digital product order, UMG will refund the relevant physical
+            element of the order in accordance with UMG&apos;s Cancellation Policy as set out in this Section XI(2).
+            Where You order multiple items that are delivered in separate batches, Your fourteen (14) day cancellation
+            period does not begin until the day after the last item has been received by You.
           </p>
 
           <p className={styles.paragraph}>
@@ -549,7 +551,7 @@ export default function Terms() {
             <a href="mailto:gilmer2002@outlook.com" className={styles.underline}>
               customercare@umgstores.com
             </a>{" "}
-            with a clear "Notice of Order Cancelation" and Your order number in the subject line of the email. Please
+            with a clear &quot;Notice of Order Cancelation&quot; and Your order number in the subject line of the email. Please
             return the product to UMG immediately in the same condition you received it (at your own cost and risk),
             following the specific return instructions You receive. You have a legal obligation to take care of the
             product while it is in Your possession. If You fail to do so, UMG may have a claim against You for
@@ -557,8 +559,8 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            c. Further details, including an explanation of how to exercise Your right to cancel, may be provided in
-            the Dispatch Confirmation for physical goods. Details of UMG&apos;s Refund Policy can also be found at Section
+            c. Further details, including an explanation of how to exercise Your right to cancel, may be provided in the
+            Dispatch Confirmation for physical goods. Details of UMG&apos;s Refund Policy can also be found at Section
             XIII.
           </p>
 
@@ -573,8 +575,8 @@ export default function Terms() {
           <p className={styles.paragraph}>3. to digital content (see Sections XI(1) above);</p>
 
           <p className={styles.paragraph}>
-            4. where the product, by reason of its nature, cannot be returned, or is billed is a &quot;Final Sale&quot; or part
-            of an &quot;All Sales are Final&quot; offer in the applicable product description or checkout page;
+            4. where the product, by reason of its nature, cannot be returned, or is billed is a &quot;Final Sale&quot;
+            or part of an &quot;All Sales are Final&quot; offer in the applicable product description or checkout page;
           </p>
 
           <p className={styles.paragraph}>5. Limited addition merchandise or other memorabilia; and</p>
@@ -585,10 +587,10 @@ export default function Terms() {
 
           <p className={styles.paragraph}>
             ii. Delivery. UMG will make best efforts to fulfill Your order by the delivery date, or estimated delivery
-            date set out in the Dispatch Confirmation, however, it is understood that circumstances outside of UMG&apos;s
-            control may delay fulfillment or delivery, including, but not limited to: high-order volumes, holidays,
-            weather, artist signings, preorder delays, manufacturing delays for preorder product, and shipping delays
-            from the content provider for preorder product.
+            date set out in the Dispatch Confirmation, however, it is understood that circumstances outside of
+            UMG&apos;s control may delay fulfillment or delivery, including, but not limited to: high-order volumes,
+            holidays, weather, artist signings, preorder delays, manufacturing delays for preorder product, and shipping
+            delays from the content provider for preorder product.
           </p>
 
           <p className={styles.paragraph}>
@@ -634,16 +636,16 @@ export default function Terms() {
             cost of delivering the item to You via standard delivery, provided that You have taken reasonable care of
             the returned product. If audio, video or software products provided to You in a separate sealed packet are
             opened, You may not be entitled to a refund. You will be responsible for the cost of returning the item to
-            UMG. For clarity, where Your order was for products of a "hybrid" nature (e.g., a physical and digital
+            UMG. For clarity, where Your order was for products of a &quot;hybrid&quot; nature (e.g., a physical and digital
             product) and UMG has begun the process of delivering the digital part of Your product order, UMG will refund
-            the relevant element of the order in accordance with UMG&apos;s Cancellation Policy (as set out in Section XI as
-            applicable) for that particular product.
+            the relevant element of the order in accordance with UMG&apos;s Cancellation Policy (as set out in Section
+            XI as applicable) for that particular product.
           </p>
 
           <p className={styles.paragraph}>
             2. If You seek to cancel Your purchase because You claim that the product is defective or that there has
-            been damage or error on UMG&apos;s part, UMG will examine the returned product and will notify You of Your refund
-            or otherwise via email within a reasonable period of time.
+            been damage or error on UMG&apos;s part, UMG will examine the returned product and will notify You of Your
+            refund or otherwise via email within a reasonable period of time.
           </p>
 
           <p className={styles.paragraph}>
@@ -711,14 +713,14 @@ export default function Terms() {
 
           <p className={styles.paragraph}>
             1. UMG may from time to time provide access via this Webstore to games, applications, and other such
-            features (the "Games") that may be accessed by You subject, in addition to the Terms, to the following
+            features (the &quot;Games&quot;) that may be accessed by You subject, in addition to the Terms, to the following
             specific provisions:
           </p>
 
           <p className={styles.paragraph}>
             i. Unless otherwise specified, all content, text, graphics, logos, button icons, images, audio clips,
             digital downloads, data compilations, and software accessible via this Webstore (collectively the
-            "Materials") are the property of UMG, or its suppliers, and are protected by the United States' and
+            &quot;Materials&quot;) are the property of UMG, or its suppliers, and are protected by the United States&apos; and
             international copyright, trade mark and other relevant intellectual property and proprietary rights laws.
           </p>
 
@@ -741,9 +743,9 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            v. You may not use any meta tags or any other &quot;hidden text&quot; using UMG&apos;s name or trademarks without UMG&apos;s
-            express written consent. Any unauthorized use immediately terminates the permission or license granted by
-            UMG.
+            v. You may not use any meta tags or any other &quot;hidden text&quot; using UMG&apos;s name or trademarks
+            without UMG&apos;s express written consent. Any unauthorized use immediately terminates the permission or
+            license granted by UMG.
           </p>
 
           <p className={styles.paragraph}>
@@ -767,13 +769,13 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            ix. The Games are provided on an &quot;as is&quot; and &quot;as available&quot; basis. UMG makes no representations or
-            warranties of any kind, express or implied, as to the operation of the Games or the information, content,
-            materials or products included on or accessing/downloading from this Webstore. You expressly agree that You
-            are accessing/downloading the Games at Your sole risk and that You will be solely responsible for any damage
-            to Your computer system or loss of data that results from the downloading of any such information, content,
-            material or products. UMG does not warrant that the Games, its servers, or any electronic communications
-            sent to You are free of viruses or other harmful components.
+            ix. The Games are provided on an &quot;as is&quot; and &quot;as available&quot; basis. UMG makes no
+            representations or warranties of any kind, express or implied, as to the operation of the Games or the
+            information, content, materials or products included on or accessing/downloading from this Webstore. You
+            expressly agree that You are accessing/downloading the Games at Your sole risk and that You will be solely
+            responsible for any damage to Your computer system or loss of data that results from the downloading of any
+            such information, content, material or products. UMG does not warrant that the Games, its servers, or any
+            electronic communications sent to You are free of viruses or other harmful components.
           </p>
 
           <p className={styles.paragraph}>XVII. Ticket and Event Pre-Sale Terms</p>
@@ -784,8 +786,8 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            ii. Access to obtain tickets before the general public (&quot;Pre-Sale Access&quot;) does not guarantee a ticket, but
-            is an opportunity to obtain tickets as a part of a pre-sale offering.
+            ii. Access to obtain tickets before the general public (&quot;Pre-Sale Access&quot;) does not guarantee a
+            ticket, but is an opportunity to obtain tickets as a part of a pre-sale offering.
           </p>
 
           <p className={styles.paragraph}>
@@ -821,9 +823,9 @@ export default function Terms() {
           <p className={styles.paragraph}>XVIII. Termination</p>
 
           <p className={styles.paragraph}>
-            1. UMG may, in UMG&apos;s sole discretion, terminate Your password, account (or any part thereof, if any) or use
-            of this Webstore without notice if (i) You are in breach of these Terms; or, (ii) if UMG believes, in UMG&apos;s
-            absolute sole discretion, that the Services, the Content or the Software, is unsuitable.
+            1. UMG may, in UMG&apos;s sole discretion, terminate Your password, account (or any part thereof, if any) or
+            use of this Webstore without notice if (i) You are in breach of these Terms; or, (ii) if UMG believes, in
+            UMG&apos;s absolute sole discretion, that the Services, the Content or the Software, is unsuitable.
           </p>
 
           <p className={styles.paragraph}>
@@ -854,12 +856,12 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            3. In relation to UMG&apos;s supply of products via this Webstore (including both digital and physical products)
-            UMG&apos;s liability for losses which You suffer is strictly limited to the purchase price paid by You. UMG is
-            not responsible for indirect losses which are not foreseeable by You and UMG (such as loss of income or
-            revenue, loss of business, loss of profits or contracts, loss of anticipated savings, loss of data, waste of
-            management or office time) however arising and whether caused by tort (including negligence), breach of
-            contract or otherwise.
+            3. In relation to UMG&apos;s supply of products via this Webstore (including both digital and physical
+            products) UMG&apos;s liability for losses which You suffer is strictly limited to the purchase price paid by
+            You. UMG is not responsible for indirect losses which are not foreseeable by You and UMG (such as loss of
+            income or revenue, loss of business, loss of profits or contracts, loss of anticipated savings, loss of
+            data, waste of management or office time) however arising and whether caused by tort (including negligence),
+            breach of contract or otherwise.
           </p>
 
           <p className={styles.paragraph}>
@@ -879,14 +881,14 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            6. This Section does not in any way limit or exclude UMG&apos;s liability for any matter for which it would be
-            illegal for UMG to exclude, or attempt to exclude, UMG&apos;s liability.
+            6. This Section does not in any way limit or exclude UMG&apos;s liability for any matter for which it would
+            be illegal for UMG to exclude, or attempt to exclude, UMG&apos;s liability.
           </p>
 
           <p className={styles.paragraph}>XX. Transfer Rights and Obligations</p>
 
           <p className={styles.paragraph}>
-            1. The agreement between You and UMG created by these Terms (the "Agreement") is binding on You and UMG and
+            1. The agreement between You and UMG created by these Terms (the &quot;Agreement&quot;) is binding on You and UMG and
             on UMG&apos;s respective successors and assigns.
           </p>
 
@@ -896,19 +898,20 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            3. UMG may transfer, assign, charge or sub-contract the Agreement, or any of UMG&apos;s rights or obligations
-            arising under it, at any time during the term of the Agreement, provided that UMG remains primarily liable
-            for UMG&apos;s obligations under the Agreement where applicable.
+            3. UMG may transfer, assign, charge or sub-contract the Agreement, or any of UMG&apos;s rights or
+            obligations arising under it, at any time during the term of the Agreement, provided that UMG remains
+            primarily liable for UMG&apos;s obligations under the Agreement where applicable.
           </p>
 
           <p className={styles.paragraph}>XXI. Events Outside UMG&apos;s Control</p>
 
           <p className={styles.paragraph}>
             1. UMG will not be liable or responsible for any failure to perform, or delay in performance of, any of
-            UMG&apos;s obligations that is caused by events outside UMG&apos;s reasonable control. UMG&apos;s performance under these
-            Terms is deemed to be suspended for the period that any such event continues, and UMG will have an extension
-            of time for performance for the duration of that period. UMG will use UMG&apos;s reasonable efforts to find a
-            solution by means of which UMG&apos;s obligations may be performed despite such event.
+            UMG&apos;s obligations that is caused by events outside UMG&apos;s reasonable control. UMG&apos;s
+            performance under these Terms is deemed to be suspended for the period that any such event continues, and
+            UMG will have an extension of time for performance for the duration of that period. UMG will use UMG&apos;s
+            reasonable efforts to find a solution by means of which UMG&apos;s obligations may be performed despite such
+            event.
           </p>
 
           <p className={styles.paragraph}>XXII. Resolving Disputes Between You and UMG</p>
@@ -948,7 +951,7 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            5. These Terms shall be binding on and endure for the benefit of each party's successors in title.
+            5. These Terms shall be binding on and endure for the benefit of each party&apos;s successors in title.
           </p>
 
           <p className={styles.paragraph}>
@@ -1008,9 +1011,9 @@ export default function Terms() {
           <p className={styles.paragraph}>XXVI. eGift Card Terms</p>
 
           <p className={styles.paragraph}>
-            1. UMG eGift Cards (&quot;eGift Cards&quot;) are issued by Rise AI E-commerce Solutions Ltd., an Israeli corporation.
-            eGift Cards may be purchased at participating UMG online stores. eGift Cards may only be redeemed toward the
-            purchase of eligible goods and services at select UMG online stores.
+            1. UMG eGift Cards (&quot;eGift Cards&quot;) are issued by Rise AI E-commerce Solutions Ltd., an Israeli
+            corporation. eGift Cards may be purchased at participating UMG online stores. eGift Cards may only be
+            redeemed toward the purchase of eligible goods and services at select UMG online stores.
           </p>
 
           <p className={styles.paragraph}>
@@ -1027,12 +1030,12 @@ export default function Terms() {
           </p>
 
           <p className={styles.paragraph}>
-            4. The risk of loss for eGift Cards passes to the purchaser upon UMG&apos;s electronic transmission of the eGift
-            Card to the designated recipient. Recipient is responsible for safeguarding the eGift Card from unauthorized
-            use. UMG is not responsible if an eGift Card is lost, stolen, or destroyed, if an eGift Card is sent to an
-            incorrect address provided by the purchaser, or if an eGift Card is used without the purchaser's or
-            recipient's permission. UMG is not responsible for, and assumes no liability to, purchaser or recipient for
-            any unlawful conduct or fraud by any third party associated with the purchase or use of any eGift Card.
+            4. The risk of loss for eGift Cards passes to the purchaser upon UMG&apos;s electronic transmission of the
+            eGift Card to the designated recipient. Recipient is responsible for safeguarding the eGift Card from
+            unauthorized use. UMG is not responsible if an eGift Card is lost, stolen, or destroyed, if an eGift Card is
+            sent to an incorrect address provided by the purchaser, or if an eGift Card is used without the purchaser&apos;s
+            or recipient&apos;s permission. UMG is not responsible for, and assumes no liability to, purchaser or recipient
+            for any unlawful conduct or fraud by any third party associated with the purchase or use of any eGift Card.
           </p>
 
           <p className={styles.paragraph}>
@@ -1058,5 +1061,3 @@ export default function Terms() {
     </>
   );
 }
-
-export default Terms;

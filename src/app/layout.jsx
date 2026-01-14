@@ -1,7 +1,7 @@
 import "../styles/globals.css";
-import { Bebas_Neue, Inter } from "next/font/google";
-import Header from "../components/Header/Header";
 import ClientWrapper from "./ClientWrapper";
+import Header from "../components/Header/Header";
+import { Bebas_Neue, Inter } from "next/font/google";
 
 const bebasNeue = Bebas_Neue({
   variable: "--font-bebas-neue",

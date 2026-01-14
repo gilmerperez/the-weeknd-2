@@ -25,9 +25,9 @@ export default function Orders() {
             {/* Answer */}
             <p className={styles.answer}>
               All orders placed on our store are immediately charged for the full cost of your order. Pending
-              authorization holds may appear on your account up to seven business days depending on your card&apos;s issuing
-              bank until the transaction has completed processing. If the pending hold does not drop after this time or
-              you believe there to be a billing error, please contact us.
+              authorization holds may appear on your account up to seven business days depending on your card&apos;s
+              issuing bank until the transaction has completed processing. If the pending hold does not drop after this
+              time or you believe there to be a billing error, please contact us.
             </p>
           </div>
 
@@ -67,8 +67,8 @@ export default function Orders() {
             {/* Answer */}
             <p className={styles.answer}>
               At this time we only accept orders placed through the website and are not able to take your credit card
-              information over the phone. If you&apos;re having trouble placing your order, please reach out to us and we&apos;ll
-              do our best to help troubleshoot and guide you through the ordering process.
+              information over the phone. If you&apos;re having trouble placing your order, please reach out to us and
+              we&apos;ll do our best to help troubleshoot and guide you through the ordering process.
             </p>
           </div>
 
@@ -105,8 +105,9 @@ export default function Orders() {
               in the future.
             </p>
             <p className={styles.answer}>
-              Upon review of the photos, we&apos;ll issue a return label to you via email. Once the affected item is received
-              by our warehouse, we&apos;ll ship you a replacement or refund you if the item is no longer in stock.
+              Upon review of the photos, we&apos;ll issue a return label to you via email. Once the affected item is
+              received by our warehouse, we&apos;ll ship you a replacement or refund you if the item is no longer in
+              stock.
             </p>
             <p className={styles.answer}>
               Please be advised we are not responsible for any damages to any merchandise once the item has been worn,
@@ -187,8 +188,8 @@ export default function Orders() {
               contains digital music.
             </p>
             <p className={styles.answer}>
-              If you have trouble accessing the music, please reach out to us and we&apos;ll make sure you can access your
-              music ASAP.
+              If you have trouble accessing the music, please reach out to us and we&apos;ll make sure you can access
+              your music ASAP.
             </p>
           </div>
 
@@ -209,9 +210,9 @@ export default function Orders() {
             </p>
             {/* Answer */}
             <p className={styles.answer}>
-              If your package is returned to our warehouse due to a shipping error, we&apos;ll contact you for an updated
-              address via the email provided with your shipping information. If we don&apos;t get a response within 5
-              business days, we reserve the right to refund your order.
+              If your package is returned to our warehouse due to a shipping error, we&apos;ll contact you for an
+              updated address via the email provided with your shipping information. If we don&apos;t get a response
+              within 5 business days, we reserve the right to refund your order.
             </p>
           </div>
 

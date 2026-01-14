@@ -1,8 +1,7 @@
 "use client";
-
 import { useState } from "react";
-import Cookies from "../components/Cookies/Cookies";
 import Footer from "../components/Footer/Footer";
+import Cookies from "../components/Cookies/Cookies";
 
 export default function ClientWrapper() {
   // * Cookies state

@@ -1,5 +1,3 @@
-/* Fonts are loaded via Next.js font optimization in layout.jsx */
-
 /* Dark theme */
 html[data-theme="dark"] {
   --bg-color: hsl(0, 0%, 3%);
@@ -22,7 +20,7 @@ html[data-theme="light"] {
   --tour-europe: hsl(191, 25%, 30%);
 }
 
-/* Universal reset - Applies to all elements and pseudo-elements */
+/* Universal reset */
 *,
 *::before,
 *::after {
@@ -31,7 +29,7 @@ html[data-theme="light"] {
   box-sizing: border-box;
 }
 
-/* Root element - Affects the entire page's scroll behavior and base size */
+/* Root element */
 html {
   height: 100%;
   font-size: 16px;
@@ -41,7 +39,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-/* Body - Base font family, and layout behavior */
+/* Body */
 body {
   display: flex;
   font-size: 1rem;
@@ -51,13 +49,13 @@ body {
   flex-direction: column;
   text-transform: uppercase;
   color: var(--text-primary);
-  font-family: var(--font-inter), sans-serif;
   background-color: var(--bg-color);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-family: var(--font-inter), sans-serif;
 }
 
-/* Main - Base layout for page content */
+/* Main */
 main {
   width: 100%;
   padding: 2rem;
@@ -70,13 +68,13 @@ hr {
   border: none;
 }
 
-/* Links - Resetting default styles and hover behavior */
+/* Links */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* Buttons - Ensures buttons appear clickable */
+/* Buttons */
 button {
   color: inherit;
   cursor: pointer;
@@ -84,7 +82,7 @@ button {
   background-color: inherit;
 }
 
-/* Lists - Removes default bullet styles */
+/* Lists */
 ul,
 ol {
   list-style: none;
@@ -95,7 +93,7 @@ textarea {
   text-transform: none;
 }
 
-/* Form elements - Normalize font and remove default borders */
+/* Form elements */
 input,
 select,
 button,
@@ -105,7 +103,7 @@ textarea {
   outline: none;
 }
 
-/* Media elements - Ensures media doesn’t overflow and stays responsive */
+/* Media elements */
 svg,
 img,
 video,

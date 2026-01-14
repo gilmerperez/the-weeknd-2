@@ -1,4 +1,4 @@
-header {
+.header {
   width: 100%;
   padding: 1.5rem 2rem;
   transition: 0.3s ease;
@@ -91,7 +91,7 @@ header {
 
 /* Tablet responsiveness */
 @media (max-width: 768px) {
-  header {
+  .header {
     padding: 1.25rem 1.75rem;
   }
 }
@@ -159,7 +159,7 @@ header {
 
 /* Mobile responsiveness */
 @media (max-width: 480px) {
-  header {
+  .header {
     padding: 1rem 1.5rem;
   }
 }
